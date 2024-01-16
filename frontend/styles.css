@@ -91,6 +91,7 @@ footer {
 /*로그인 페이지 관련*/
 #login-header {
     padding-top: 38px;
+    padding-bottom: 55px;
 }
 #login-section a {
     color: #ffcc00;
@@ -146,6 +147,7 @@ footer {
 /*회원가입 페이지 관련*/
 #register-header {
     padding-top: 38px;
+    padding-bottom: 55px;
 }
 
 #register-section {
@@ -170,7 +172,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#submit_button {
+#register-section button {
     padding: 10px;
     background-color: #ffcc00;
     color: #333;
@@ -179,20 +181,8 @@ footer {
     cursor: pointer;
 }
 
-#submit_button:hover {
+#register-section button:hover {
     background-color: #e6b800;
-}
-
-#check_button {
-    padding: 10px;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#check_button:hover {
-    background-color: #d4d4d4;
 }
 
 #register-section p {
@@ -221,6 +211,7 @@ section a{
     text-decoration: none;
     color: #333;
 }
+
 
 section a:visited{
     color: #333;
@@ -255,7 +246,30 @@ article:hover {
 .write-post-btn:hover {
     background-color: #e6b800;
 }
-
+/*보유포인트*/
+section h1{
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+/*버튼*/
+.buy-btn {
+    background-color:  #8cd19c;
+    color: #333;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    
+    
+    
+}
+.buy-btn:hover {
+    background-color: #8cd19c;
+}
 /*검색관련 스타일*/
 .search-box {
     display: flex;
@@ -300,11 +314,6 @@ label {
     box-sizing: border-box;
 }
 
-#upload_container {
-    display: flex;
-    justify-content: space-between;
-}
-
 #upload_content_button {
     padding: 8px 10px;
     background-color: #ffcc00;
@@ -312,7 +321,6 @@ label {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-self: flex-end;
 }
 
 #upload_content_button:hover {
